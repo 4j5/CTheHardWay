@@ -10,3 +10,31 @@ int main()
 
 	return 0;
 }
+
+/*
+
+Printf flags % followed by C99
+
+# Alternate form
+
+0 Zero padding
+
+- left adjust
+
+' ' space
+
++ sign before number
+
+%
+d, i Int
+c char
+f float
+s string
+
+\n newline
+\t tab
+\v vert tab
+\f new page
+\b backspace
+\r carriage return
+*/
