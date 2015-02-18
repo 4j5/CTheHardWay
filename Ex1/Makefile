@@ -1,4 +1,7 @@
 CFLAGS=-Wall -g
 
+all: ex1.c
+	gcc -Wall -g -o ../bin/ex1 ex1.c
+
 clean:
-	rm -f ex1
+	rm -f ../bin/ex1
