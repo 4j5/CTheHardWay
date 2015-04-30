@@ -15,7 +15,17 @@ ex6:
 	$(CC) $(CFLAGS) -o bin/ex6 Ex6/ex6.c
 ex7:
 	$(CC) $(CFLAGS) -o bin/ex7 Ex7/ex7.c
+ex8:
+	$(CC) $(CFLAGS) -o bin/ex8 Ex8/ex8.c
+ex9:
+	$(CC) $(CFLAGS) -o bin/ex9 Ex9/ex9.c
+ex10:
+	$(CC) $(CFLAGS) -o bin/ex10 Ex10/ex10.c
+ex11:
+	$(CC) $(CFLAGS) -o bin/ex11 Ex11/ex11.c
+ex12:
+	$(CC) $(CFLAGS) -o bin/ex12 Ex12/ex12.c
 
 clean:
-	rm -f bin/*
-	echo "Done!!!"
+	@rm -f bin/*
+	@echo "Done!!!"
