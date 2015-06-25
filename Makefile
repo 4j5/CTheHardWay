@@ -25,7 +25,10 @@ ex11:
 	$(CC) $(CFLAGS) -o bin/ex11 Ex11/ex11.c
 ex12:
 	$(CC) $(CFLAGS) -o bin/ex12 Ex12/ex12.c
-
+ex13:
+	$(CC) $(CFLAGS) -o bin/ex13 Ex13/ex13.c
+ex14:
+	$(CC) $(CFLAGS) -o bin/ex14 Ex14/ex14.c
 clean:
 	@rm -f bin/*
 	@echo "Done!!!"
